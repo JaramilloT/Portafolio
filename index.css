@@ -39,23 +39,48 @@ header{
 }
 
 
-.containerProyect{
+.containerTitleProyect{
     display: flex;
 }
 
 .img_sena{
     width: 10%;
-    margin-left: 2rem;
+    margin-left: 6rem;
     margin-top: 1rem;
 }
 
 .Proyect{
     margin-top: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.4rem;
     color: #00af00;
 }
 
 hr{
-    width: 80%;
-    height: 22%;
+    width: 55%;
+    height: 0.3rem; 
+    background-color: #00af00;
+    margin: auto;
+}
+
+
+.containerProyect{
+    margin-top: 2rem;
+    border-radius: 10px;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 11rem;
+    background-color: #91ff90;
+    
+}
+
+.imgAtlas{
+    width: 90%;
+}
+
+.LinkAtlas{
+    color: #00af00;
+    text-decoration: none;
 }
