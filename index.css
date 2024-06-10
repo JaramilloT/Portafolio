@@ -39,8 +39,24 @@ header{
 }
 
 
+/*main "proryect"*/
+
+.containerProyect{
+    margin-top: 2rem;
+    border-radius: 10px;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    height: 11rem;
+    background-color: #91ff90;
+    
+}
+
 .containerTitleProyect{
     display: flex;
+    margin-top: 4rem;
 }
 
 .img_sena{
@@ -56,25 +72,14 @@ header{
 }
 
 hr{
-    width: 55%;
+    width: 70%;
     height: 0.3rem; 
     background-color: #00af00;
     margin: auto;
 }
 
 
-.containerProyect{
-    margin-top: 2rem;
-    border-radius: 10px;
-    margin-left: 3.5rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 70%;
-    height: 11rem;
-    background-color: #91ff90;
-    
-}
+
 
 .imgAtlas{
     width: 90%;
@@ -84,3 +89,62 @@ hr{
     color: #00af00;
     text-decoration: none;
 }
+
+
+/*main "Rereference"*/
+
+
+.containerTitleReference{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.img_sena2{
+    width: 10%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.reference{
+    margin-top: 1.5rem;
+    margin-left: 0.4rem;
+    color: #00af00;
+}
+
+.ContainerReference{
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 10rem;
+    border: solid 1px black;
+}
+
+.textReference{
+    margin: 1rem;
+}
+
+/*main "experience"*/
+
+.containerExperience{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+
+.imgJs{
+    border-radius: 50px;
+    height: 50%;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+progress{
+    height: 5rem;
+
+}
+
