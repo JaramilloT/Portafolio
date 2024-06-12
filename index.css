@@ -56,7 +56,7 @@ header{
 
 .containerTitleProyect{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .img_sena{
@@ -136,10 +136,10 @@ hr{
 }
 
 
-.imgJs{
+.imgLg{
     border-radius: 50px;
     height: 50%;
-    width: 50%;
+    width: 35%;
     margin-top: 2rem;
 }
 
@@ -151,3 +151,162 @@ progress{
 
 /*Media Cuerys*/
 
+
+@media screen and (min-width: 430px) and (max-width: 932px) {
+    .ContainerInformation{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .name{
+        margin-left: 1rem;
+    }
+
+    .text_title{
+        margin-left: 10rem;
+    }
+
+    .img_header{
+        margin-top: 1rem;
+    }
+
+    .Proyect{
+        margin-left: 2.5rem;
+    }
+    .containerProyect{
+        width: 75%;
+    }
+
+    .reference{
+        margin-left: 2.5rem;
+    }
+
+    .ContainerReference{
+        width: 75%;
+    }
+
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180PX) {
+    .ContainerInformation{
+        width: 80%;
+        margin-top: 5rem;
+        margin-right: 2rem;
+    }
+
+    .name{
+        margin-left: 3.5rem;
+    }
+
+    .text_title{
+        margin-left: 16rem;
+        height: 2rem;
+        font-size: 2rem;
+    }
+   
+    .ContainerName {
+        width: 50%;
+        margin-left: 3rem;
+    }
+     
+    .img_header{
+        margin-top: 2rem;
+    }
+
+    .img_sena{
+        margin-left: 9rem;
+    }
+
+    .Proyect{
+        margin-left: 7rem;
+        font-size: 2rem;
+        margin-top: 3.2rem;
+    }
+
+    .containerProyect{
+        width: 60%;
+        margin-left: 10rem;
+    }
+
+    .ContainerReference{
+        width: 60%;
+        margin-left: 10rem;
+    }
+    
+    .reference{
+        margin-left: 7rem;
+        font-size: 2rem;
+        margin-top: 3.2rem;
+    }
+
+    .img_sena2{
+        margin-left: 9rem;
+    }
+
+    .imgTypescript{
+        width: 22%;
+    }
+}
+
+
+@media screen and (min-width: 1559px) and (max-width: 975px) {
+    .ContainerInformation{
+        width: 80%;
+        margin-top: 5rem;
+        margin-right: 2rem;
+    }
+
+    .name{
+        margin-left: 3.5rem;
+    }
+
+    .text_title{
+        margin-left: 16rem;
+        height: 2rem;
+        font-size: 2rem;
+    }
+   
+    .ContainerName {
+        width: 50%;
+        margin-left: 3rem;
+    }
+     
+    .img_header{
+        margin-top: 2rem;
+    }
+
+    .img_sena{
+        margin-left: 9rem;
+    }
+
+    .Proyect{
+        margin-left: 7rem;
+        font-size: 2rem;
+        margin-top: 3.2rem;
+    }
+
+    .containerProyect{
+        width: 60%;
+        margin-left: 10rem;
+    }
+
+    .ContainerReference{
+        width: 60%;
+        margin-left: 10rem;
+    }
+    
+    .reference{
+        margin-left: 7rem;
+        font-size: 2rem;
+        margin-top: 3.2rem;
+    }
+
+    .img_sena2{
+        margin-left: 9rem;
+    }
+
+    .imgTypescript{
+        width: 22%;
+    }
+}
