@@ -4,13 +4,13 @@
 }
 
 header{
-    background-color:#91ff90
+    background-color:#e7e4e1
 
 }
 
 .text_title{
     margin-left: 8rem;
-    color: #00af00
+    color: rgb(82, 58, 28)
 }
 
 .containerHeader{
@@ -50,7 +50,7 @@ header{
     text-align: center;
     width: 70%;
     height: 11rem;
-    background-color: #91ff90;
+    background-color:#e7e4e1;
     
 }
 
@@ -68,13 +68,13 @@ header{
 .Proyect{
     margin-top: 1.5rem;
     margin-left: 1.4rem;
-    color: #00af00;
+    color:#726a63;
 }
 
 hr{
     width: 70%;
     height: 0.3rem; 
-    background-color: #00af00;
+    background-color: #726a63;
     margin: auto;
 }
 
@@ -108,7 +108,7 @@ hr{
 .reference{
     margin-top: 1.5rem;
     margin-left: 0.4rem;
-    color: #00af00;
+    color: #726a63;
 }
 
 .ContainerReference{
@@ -147,4 +147,7 @@ progress{
     height: 5rem;
 
 }
+
+
+/*Media Cuerys*/
 
