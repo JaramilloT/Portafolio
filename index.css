@@ -41,6 +41,10 @@ header{
 
 /*main "proyect"*/
 
+.container{
+    display: none;
+}
+
 .containerProyect{
     margin-top: 2rem;
     border-radius: 10px;
@@ -250,45 +254,67 @@ progress{
 }
 
 
-@media screen and (min-width: 1559px) and (max-width: 975px) {
+@media screen and (min-width: 975px) and (max-width: 1559px) {
+    
     .ContainerInformation{
         width: 80%;
-        margin-top: 5rem;
-        margin-right: 2rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
     }
 
     .name{
-        margin-left: 3.5rem;
+        margin-left: 8rem;
     }
 
     .text_title{
-        margin-left: 16rem;
+        margin-left: 40rem;
         height: 2rem;
         font-size: 2rem;
     }
    
     .ContainerName {
-        width: 50%;
+        width: 30%;
         margin-left: 3rem;
     }
      
     .img_header{
         margin-top: 2rem;
+        height: 10rem;
+        width: 10rem;
+        margin-left: 6.5rem;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imgAtlas{
+        height: 7rem;
+        width: 10rem;
     }
 
     .img_sena{
         margin-left: 9rem;
+        width: 8%;
+    }
+
+    .containerTitleProyect{
+        margin-left: 8rem;
     }
 
     .Proyect{
-        margin-left: 7rem;
-        font-size: 2rem;
-        margin-top: 3.2rem;
+        margin-left: 17rem;
+        font-size: 3rem;
+        margin-top: 6rem;
     }
 
     .containerProyect{
-        width: 60%;
-        margin-left: 10rem;
+        width: 35%;
     }
 
     .ContainerReference{
@@ -297,16 +323,18 @@ progress{
     }
     
     .reference{
-        margin-left: 7rem;
-        font-size: 2rem;
-        margin-top: 3.2rem;
+        margin-left: 14rem;
+        font-size: 3rem;
+        margin-top: 6rem;
     }
 
     .img_sena2{
-        margin-left: 9rem;
+        margin-left: 17rem;
+        width: 8%;  
     }
 
     .imgTypescript{
         width: 22%;
     }
+
 }
