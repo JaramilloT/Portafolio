@@ -253,22 +253,31 @@ progress{
 
 
 @media screen and (min-width: 975px) and (max-width: 1559px) {
+    header{
+        width: 60rem;
+    }
+
+    .containerHeader{
+        position: fixed;
+    }
+
+    body{
+        display: flex;
+    }
     
     .ContainerInformation{
-        width: 80%;
+        width: 13%;
         font-size: 1.5rem;
-        display: flex;
-        align-items: center;
+        margin-top: 24rem;
+        margin-left: -28rem;
     }
 
     .name{
-        margin-left: 8rem;
+        margin-left: 4rem;
     }
 
     .text_title{
-        margin-left: 40rem;
-        height: 2rem;
-        font-size: 2rem;
+        display: none;
     }
    
     .ContainerName {
@@ -280,12 +289,11 @@ progress{
         margin-top: 2rem;
         height: 10rem;
         width: 10rem;
-        margin-left: 6.5rem;
+        margin-left: 2rem;
     }
 
     .containerPrincipalProyect{
-        height: 100%;
-        width: 100%;
+        height: 20%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -297,7 +305,7 @@ progress{
     }
 
     .img_sena{
-        margin-left: 9rem;
+        margin-left: 5rem;
         width: 8%;
     }
 
@@ -306,14 +314,14 @@ progress{
     }
 
     .Proyect{
-        margin-left: 8rem;
+        margin-left: 15rem;
         font-size: 3rem;
         margin-top: 6rem;
     }
 
 
     .containerPrincipalReference{
-        height: 100%;
+        height: 10%;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -329,22 +337,21 @@ progress{
     }
     
     .reference{
-        margin-left: 6rem;
+        margin-left: 16rem;
         font-size: 3rem;
         margin-top: 6rem;
     }
 
     .img_sena2{
-        margin-left: 17rem;
-        width: 8%;  
+        margin-left: 12rem;
+        width: 8%; 
     }
     
     .containerExperience{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        height: 100%;
+;
         text-align: center;
     }
 
@@ -364,4 +371,125 @@ progress{
         width: 35%;
     }
 
+}
+
+
+@media screen and (min-width: 1920px){
+    header{
+        width: 60rem;
+    }
+
+    .containerHeader{
+        position: fixed;
+    }
+
+    body{
+        display: flex;
+    }
+    
+    .ContainerInformation{
+        width: 13%;
+        font-size: 1.5rem;
+        margin-top: 22rem;
+        margin-left: -34rem;
+    }
+
+    .name{
+        margin-left: 5rem;
+    }
+
+    .text_title{
+        display: none;
+    }
+   
+    .ContainerName {
+        width: 30%;
+        margin-left: 3rem;
+    }
+     
+    .img_header{
+        margin-top: 2rem;
+        height: 10rem;
+        width: 10rem;
+        margin-left: 4rem;
+    }
+
+    .containerPrincipalProyect{
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imgAtlas{
+        height: 7rem;
+        width: 10rem;
+    }
+
+    .img_sena{
+        margin-left: 5rem;
+        width: 8%;
+    }
+
+    .containerTitleProyect{
+        margin-left: 8rem;
+    }
+
+    .Proyect{
+        margin-left: 16rem;
+        font-size: 3rem;
+        margin-top: 6rem;
+    }
+
+
+    .containerPrincipalReference{
+        height: 10%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .containerProyect{
+        width: 35%;
+    }
+
+    .ContainerReference{
+        width: 20%;
+    }
+    
+    .reference{
+        margin-left: 16rem;
+        font-size: 3rem;
+        margin-top: 6rem;
+    }
+
+    .img_sena2{
+        margin-left: 13rem;
+        width: 8%; 
+    }
+    
+    .containerExperience{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+;
+        text-align: center;
+    }
+
+    .containerlanguage{
+        width: 35%;
+        height: 50%;
+    }
+
+    .imgLg{
+        border-radius: 50px;
+        height: 50%;
+        width: 35%;
+        margin-top: 2rem;
+    }
+
+    .imgTypescript{
+        width: 35%;
+    }
 }
