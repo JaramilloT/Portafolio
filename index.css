@@ -41,9 +41,7 @@ header{
 
 /*main "proyect"*/
 
-.container{
-    display: none;
-}
+
 
 .containerProyect{
     margin-top: 2rem;
@@ -285,7 +283,7 @@ progress{
         margin-left: 6.5rem;
     }
 
-    .container{
+    .containerPrincipalProyect{
         height: 100%;
         width: 100%;
         display: flex;
@@ -308,9 +306,18 @@ progress{
     }
 
     .Proyect{
-        margin-left: 17rem;
+        margin-left: 8rem;
         font-size: 3rem;
         margin-top: 6rem;
+    }
+
+
+    .containerPrincipalReference{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .containerProyect{
@@ -318,12 +325,11 @@ progress{
     }
 
     .ContainerReference{
-        width: 60%;
-        margin-left: 10rem;
+        width: 20%;
     }
     
     .reference{
-        margin-left: 14rem;
+        margin-left: 6rem;
         font-size: 3rem;
         margin-top: 6rem;
     }
@@ -332,9 +338,30 @@ progress{
         margin-left: 17rem;
         width: 8%;  
     }
+    
+    .containerExperience{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .containerlanguage{
+        width: 35%;
+        height: 50%;
+    }
+
+    .imgLg{
+        border-radius: 50px;
+        height: 50%;
+        width: 35%;
+        margin-top: 2rem;
+    }
 
     .imgTypescript{
-        width: 22%;
+        width: 35%;
     }
 
 }
